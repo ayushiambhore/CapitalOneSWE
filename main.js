@@ -5,7 +5,7 @@
 const apikey = '0bc0004f540d4de4855f145185f08a9d';
 let topic= 'Sports';
 
-const api_url =`https://newsapi.org/v2/everything?q=Sports&apiKey=${apikey}`;
+const api_url =`http://newsapi.org/v2/everything?q=Sports&apiKey=${apikey}`;
 //	"https://api.agify.io/?name=bella"; 
 
 // Defining async function 
