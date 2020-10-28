@@ -1,0 +1,17 @@
+.myDiv {
+    display : none;
+}
+
+.techDiv {
+    padding: 10%;
+}
+
+.sportHide {
+    display : none;
+}
+
+#btn btn-outline-success {
+    padding: 0%;
+    color: antiquewhite;
+    outline: blue;
+}
