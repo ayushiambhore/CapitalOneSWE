@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <script src="main.js"></script> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title> 
+    <link rel="stylesheet" href="style.css"> 
+    <!-- Bootstrap -->
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/fontawesome-all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/index.css"> 
+  </head>
+  <body >
+    
+    <div class="">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <h3> <a class="navbar-brand"><span class="badge badge-success">Capital One Software Engineering Summit</span></a></h3>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <button type="button" class="btn btn-outline-success" style="margin:5px;" onclick = "techFunction()">Technology</button>
+        </li>
+        <li class="nav-item">
+            <button type="button" class="btn btn-outline-success" style="margin:5px;" onclick = "sportFunction()">Sports</button>
+        </li>
+        <li class="nav-item">
+            <button type="button" class="btn btn-outline-success" style="margin:5px;" onclick = "entertainmentFunction()">Entertainment</button>
+        </li>
+        <li class="nav-item">
+            <button type="button" class="btn btn-outline-success" style="margin:5px;" >Search</button>
+        </li>
+      </ul>
+
+      <span class="navbar-text">
+     Ayushi Ambhore
+    </span>
+    </div>
+  </nav>
+</div>
+
+      
+    <!-- Bootstrap -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/fontawesome-all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/index.css"> 
+<link rel="stylesheet" href="style.css"> 
+<br>
+<br>
+<br>
+
+  
+<div class="form-inline">
+    <div class="form-group mx-sm-3 mb-2">
+      <label for="Search" class="sr-only">Search</label>
+      <input type="Search" class="form-control" required="true" id="Search" placeholder="Search">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1"> Select Category</label>
+      <select class="form-control" id="category">
+        <option>Entertainment</option>
+        <option>Sports</option>
+        <option>Technology</option>
+       
+      </select>
+    </div>
+      
+    <button type="submit" class="btn btn-primary mb-2" onclick = "SearchFunction()">Search </button>
+  </div>
+  <!-- <div class="main">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-3">
+          <div class="card-column">
+          </div>
+        </div>
+
+        <div class="col-9" >
+          <h1 align="center"> TECHNOLOGY NEWS </h1>
+          <div class="container">
+            <div class="card-columns"> -->
+
+              <div class="card" id = "techDiv">
+                <table id="technologynews" ></table> 
+              </div>
+              
+            <!-- </div>
+          </div>
+        </div> -->
+
+        <!-- <div class="col-9" >
+            <h1 align="center"> ENTERTAINMENT NEWS </h1>
+            <div class="container">
+              <div class="card-columns"> -->
+  
+                <div class="card" id = "entDiv">
+                  <table id="entertainmentnews" ></table> 
+                </div>
+<!--                 
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-9" >
+            <h1 align="center"> SPORTS NEWS </h1>
+            <div class="container">
+              <div class="card-columns"> -->
+  
+                <div class="card" id = "sportDiv">
+                  <table id="sportsnews" ></table> 
+                </div>
+
+
+                <div class="card" id = "searchDiv">
+                  <table id="searchnews" ></table> 
+                </div>
+              <!-- </div>
+            </div>
+          </div> -->
+
+       
+<!-- 
+      </div>
+    </div>
+  </div> -->
+
+</body>
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
